@@ -1,0 +1,5 @@
+11:52:42 **** Incremental Build of configuration Debug for project Clase(30Del3)Ejercicio2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase(30Del3)Ejercicio2.o" "..\\src\\Clase(30Del3)Ejercicio2.c" 
+gcc -o Clase(30Del3)Ejercicio2.exe "src\\Clase(30Del3)Ejercicio2.o" "src\\calcular.o" 
+Info: Nothing to build for Clase(30Del3)Ejercicio2

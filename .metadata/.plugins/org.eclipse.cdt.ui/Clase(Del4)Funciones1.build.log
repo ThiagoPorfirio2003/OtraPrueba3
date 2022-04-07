@@ -1,0 +1,7 @@
+11:49:08 **** Incremental Build of configuration Debug for project Clase(Del4)Funciones1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase(Del4)Funciones1.o" "..\\src\\Clase(Del4)Funciones1.c" 
+gcc -o Clase(Del4)Funciones1.exe "src\\Clase(Del4)Funciones1.o" "src\\calcular.o" 
+
+11:49:08 Build Finished. 0 errors, 0 warnings. (took 283ms)
+

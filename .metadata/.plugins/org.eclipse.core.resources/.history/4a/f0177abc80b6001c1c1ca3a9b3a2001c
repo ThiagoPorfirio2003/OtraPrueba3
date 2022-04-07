@@ -1,0 +1,44 @@
+/*
+ ============================================================================
+ Name        : TP1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int sumar(void);
+
+
+int main(void) {
+	setbuf(stdout,NULL);
+	int resultado;
+
+	resultado= sumar();
+
+	printf("\nResultado de la suma: %d", resultado);
+
+	return EXIT_SUCCESS;
+}
+
+
+int sumar(void)
+{
+	int retorno;
+	int numeroUno;
+	int numeroDos;
+
+	printf("Ingrese un numero: ");
+	scanf("%d",&numeroUno);
+
+	printf("Ingrese otro numero: ");
+	scanf("%d",&numeroDos);
+
+	retorno = numeroUno + numeroDos;
+
+	return retorno;
+}
